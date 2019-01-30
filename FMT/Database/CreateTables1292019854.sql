@@ -1,6 +1,6 @@
 USE [master]
 GO
-/****** Object:  Database [FindMyTherapist]    Script Date: 1/29/2019 8:41:33 PM ******/
+/****** Object:  Database [FindMyTherapist]    Script Date: 1/29/2019 8:54:20 PM ******/
 CREATE DATABASE [FindMyTherapist]
  CONTAINMENT = NONE
  ON  PRIMARY 
@@ -99,7 +99,7 @@ ALTER DATABASE SCOPED CONFIGURATION FOR SECONDARY SET QUERY_OPTIMIZER_HOTFIXES =
 GO
 USE [FindMyTherapist]
 GO
-/****** Object:  Table [dbo].[FavTherapist]    Script Date: 1/29/2019 8:41:34 PM ******/
+/****** Object:  Table [dbo].[FavTherapist]    Script Date: 1/29/2019 8:54:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -114,7 +114,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Reviews]    Script Date: 1/29/2019 8:41:35 PM ******/
+/****** Object:  Table [dbo].[Reviews]    Script Date: 1/29/2019 8:54:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -131,7 +131,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[SavedTherapist]    Script Date: 1/29/2019 8:41:35 PM ******/
+/****** Object:  Table [dbo].[SavedTherapist]    Script Date: 1/29/2019 8:54:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -146,7 +146,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Therapists]    Script Date: 1/29/2019 8:41:35 PM ******/
+/****** Object:  Table [dbo].[Therapists]    Script Date: 1/29/2019 8:54:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -173,7 +173,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Users]    Script Date: 1/29/2019 8:41:35 PM ******/
+/****** Object:  Table [dbo].[Users]    Script Date: 1/29/2019 8:54:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
